@@ -1,0 +1,8 @@
+packages:
+  - package: dbt-labs/dbt_external_tables
+    version: 0.8.2
+  - package: calogica/dbt_expectations
+    version: 0.8.0
+  - package: calogica/dbt_date
+    version: 0.7.1
+# above packages work with dbt==1.2.2

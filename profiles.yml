@@ -1,0 +1,18 @@
+
+snowflake:
+  target: main
+  outputs:
+    main:
+      type: snowflake
+      account: {snowflake_account}
+      threads: 5
+      client_session_keep_alive: false
+
+      # Your Snowflake username
+      user: "{snowflake_user_name}"
+      password: "{snowflake_password}"
+      authenticator: username_password_mfa
+      role: ACCOUNTADMIN
+      database: SNOWFLAKE
+      schema: ACCOUNT_USAGE
+      warehouse: COMPUTE_WH
