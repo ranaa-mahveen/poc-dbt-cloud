@@ -4,15 +4,15 @@ snowflake:
   outputs:
     main:
       type: snowflake
-      account: {snowflake_account}
+      account: fda51850
       threads: 5
       client_session_keep_alive: false
 
       # Your Snowflake username
-      user: "{snowflake_user_name}"
-      password: "{snowflake_password}"
+      user: opsadmin
+      password: "Xvrkt4R3qtE7AmAf"
       authenticator: username_password_mfa
-      role: ACCOUNTADMIN
+      role: DATA_SUPPORT
       database: SNOWFLAKE
-      schema: ACCOUNT_USAGE
-      warehouse: COMPUTE_WH
+      schema: RANAA_MAHVEEN
+      warehouse: DATA_TOOLS_WH
